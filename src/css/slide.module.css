@@ -1,0 +1,54 @@
+.container {
+  /* whatever height you want */
+  height: 70vh;
+  position: relative;
+}
+
+.img {
+  /* in order to set height responsive to the container */
+  height: 100%;
+}
+.prev {
+  background: var(--primaryColor);
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  padding: 0.5rem 0.5rem;
+}
+.next {
+  background: var(--primaryColor);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  padding: 0.5rem 0.5rem;
+}
+
+.arrow-left {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arrow-right {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+} */
