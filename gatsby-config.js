@@ -4,6 +4,7 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-react-leaflet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
