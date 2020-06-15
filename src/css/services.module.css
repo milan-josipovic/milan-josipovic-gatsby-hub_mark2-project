@@ -23,3 +23,11 @@
 .service h4 {
   text-transform: uppercase;
 }
+.services button a {
+  text-decoration: none;
+  color: white;
+}
+.services button a:hover {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
