@@ -31,3 +31,10 @@
   text-decoration: none;
   color: var(--primaryColor);
 }
+
+.icon {
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}

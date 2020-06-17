@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 const getNews = graphql`
   query {
     featuredNews: allContentfulPost(
-      sort: { fields: createdAt, order: DESC }
+      sort: { fields: published, order: DESC }
       limit: 3
     ) {
       edges {

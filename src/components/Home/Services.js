@@ -11,7 +11,7 @@ const Services = () => {
         {services.map((item, index) => {
           return (
             <article key={index} className={styles.service}>
-              <span>{item.icon}</span>
+              <span className={styles.icon}>{item.icon}</span>
               <h4>{item.title}</h4>
               <p>{item.text}</p>
               <button type="button" className="btn-primary">

@@ -5,7 +5,7 @@ export default [
   },
   {
     path: "/about",
-    text: "O RIS",
+    text: "O Nama",
   },
   {
     path: "/incubator",
