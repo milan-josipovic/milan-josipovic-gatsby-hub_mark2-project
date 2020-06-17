@@ -25,7 +25,7 @@ class LeafletMap extends React.Component {
     return (
       <Map center={this.props.position} zoom={this.props.zoom}>
         <TileLayer
-          url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+          url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
         {this.props.markerText !== "" && (
