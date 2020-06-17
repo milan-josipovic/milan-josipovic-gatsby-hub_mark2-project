@@ -29,15 +29,31 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>Između ostalog nudimo</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-            earum aut labore?
+            Regionalni inovacioni startup centar u Užicu (RIS centar) osnovan je
+            s ciljem uspostavljanja saradnje i uvezivanjem sa privredom, naukom,
+            istraživačkim sektorom i visokoškolskim institucijama.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Perspiciatis molestiae culpa aspernatur?
+            Centar pruža infrastrukturnu, upravljačku i tehničku podršku
+            inovativnim idejama i novoosnovanim preduzećima, obezbeđujući im
+            mogućnost da se razvijaju, rastu, povezuju sa akterima iz javnog,
+            privatnog i civilnog sektora, kao i da identifikuje potencijalne
+            izvore finansiranja.
           </p>
+          <p>
+            Kako je Zlatiborski okrug atraktivna lokacija za investicije
+            zasnovane na znanju, inovacijamai i informacionim tehnologijama u
+            kome se mladim, obrazovnim I kreativnim ljudima pruža mogućnost i
+            podršku za počinjanje sopstvenog biznisa I saradnju sa firmama iz
+            zemlje i inostranstva.
+          </p>
+          <p>
+            Osnovan je kao zajednička inicijativa kabineta ministra za inovacije
+            i tehnološki razvoj, Grada Užica i regionalne razvojne agencije
+            Zlatibor .
+          </p>
+
           <button type="button" className="btn-primary">
             <Link to="services">procitajte vise</Link>
           </button>

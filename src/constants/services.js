@@ -4,20 +4,21 @@ import { AiOutlineRocket, AiOutlineStar, AiOutlineLink } from "react-icons/ai"
 export default [
   {
     icon: <AiOutlineRocket />,
-    title: "Startapi",
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    title: "Startap",
+    text:
+      "Pokrećeš svoj startap? Obrati se nama da tvoju ideju podržimo i ispratimo...",
     link: "/services",
   },
   {
     icon: <AiOutlineStar />,
     title: "Kompanije",
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    text: "Mesto gde ideja postaje biznis.",
     link: "/services",
   },
   {
     icon: <AiOutlineLink />,
     title: "Pridružite nam se",
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    text: "Pristupite i budite deo ekosistema startapova širom Srbije.",
     link: "/services",
   },
 ]
