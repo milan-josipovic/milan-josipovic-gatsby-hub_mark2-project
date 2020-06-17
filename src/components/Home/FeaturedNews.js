@@ -15,7 +15,7 @@ const getNews = graphql`
           title
           slug
           id: contentful_id
-          published(formatString: "MMMM Do, YYYY")
+          published(formatString: "DD. MM. YYYY")
           image {
             fluid {
               ...GatsbyContentfulFluid
