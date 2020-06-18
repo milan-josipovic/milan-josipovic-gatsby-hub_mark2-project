@@ -7,6 +7,8 @@ import FeaturedNews from "../components/Home/FeaturedNews"
 
 import LeafletMap from "../components/Map/LeafletMap"
 
+import PartnerLogos from "../components/Home/PartnerLogos"
+
 export default () => (
   <Layout>
     {/* <section style={{ margin: "0.5rem 1rem" }}> */}
@@ -14,6 +16,7 @@ export default () => (
     <About />
     <Services />
     <FeaturedNews />
+
     {/* </section> */}
 
     {typeof window !== "undefined" && (
@@ -23,5 +26,6 @@ export default () => (
         markerText={"RIS Hub Užice"}
       />
     )}
+    <PartnerLogos />
   </Layout>
 )

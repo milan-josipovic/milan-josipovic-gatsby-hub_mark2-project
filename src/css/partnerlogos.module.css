@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+*.partners {
+  padding: 1rem 0;
+}
+
+.center {
+  width: 65vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-column-gap: 6rem;
+}
+
+.partner-cards {
+  animation: fadeIn ease 7s;
+  -webkit-animation: fadeIn ease 7s;
+  -moz-animation: fadeIn ease 7s;
+  -o-animation: fadeIn ease 7s;
+  -ms-animation: fadeIn ease 7s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

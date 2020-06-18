@@ -30,24 +30,15 @@ const About = () => {
         </article>
         <article className={styles.aboutInfo}>
           <p>
-            Regionalni inovacioni startup centar u Užicu (RIS centar) osnovan je
-            s ciljem uspostavljanja saradnje i uvezivanjem sa privredom, naukom,
+            Regionalni inovacioni startup centar u Užicu osnovan je s ciljem
+            uspostavljanja saradnje i uvezivanjem sa privredom, naukom,
             istraživačkim sektorom i visokoškolskim institucijama.
           </p>
           <p>
             Centar pruža infrastrukturnu, upravljačku i tehničku podršku
-            inovativnim idejama i novoosnovanim preduzećima, obezbeđujući im
-            mogućnost da se razvijaju, rastu, povezuju sa akterima iz javnog,
-            privatnog i civilnog sektora, kao i da identifikuje potencijalne
-            izvore finansiranja.
+            inovativnim idejama i novoosnovanim preduzećima.
           </p>
-          <p>
-            Kako je Zlatiborski okrug atraktivna lokacija za investicije
-            zasnovane na znanju, inovacijamai i informacionim tehnologijama u
-            kome se mladim, obrazovnim I kreativnim ljudima pruža mogućnost i
-            podršku za počinjanje sopstvenog biznisa I saradnju sa firmama iz
-            zemlje i inostranstva.
-          </p>
+
           <p>
             Osnovan je kao zajednička inicijativa kabineta ministra za inovacije
             i tehnološki razvoj, Grada Užica i regionalne razvojne agencije
