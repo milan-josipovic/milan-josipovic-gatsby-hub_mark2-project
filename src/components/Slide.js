@@ -3,6 +3,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
 import styles from "../css/slide.module.css"
+import { FaChevronLeft } from "react-icons/fa";
+import { FaChevronRight} from "react-icons/fa";
 
 function Slide() {
   const [index, setIndex] = useState(0)
@@ -47,10 +49,10 @@ function Slide() {
       />
 
       <button onClick={() => handlePrevious()} className={styles.prev}>
-        <i className={styles.arrowLeft}></i>
+        <FaChevronLeft size={35} className={styles.arrowLeft}/>
       </button>
       <button onClick={() => handleNext()} className={styles.next}>
-        <i className={styles.arrowRight}></i>
+        <FaChevronRight size={35} className={styles.arrowRight}/>
       </button>
     </div>
   )
