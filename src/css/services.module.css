@@ -11,14 +11,13 @@
 }
 .service {
   margin: 2rem 0;
-  text-align: center;
+  text-align: center;  
 }
 .service span {
   background: var(--primaryColor);
-  padding: 0.5rem;
   display: inline-block;
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;  
 }
 .service h4 {
   text-transform: uppercase;
@@ -36,5 +35,5 @@
   color: white;
   border-radius: 50%;
   height: 50px;
-  width: 50px;
+  width: 50px;  
 }
