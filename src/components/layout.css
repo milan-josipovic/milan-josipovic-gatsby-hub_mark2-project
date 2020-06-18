@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 :root {
   /* --primaryColor: #3fd0d4;
@@ -20,10 +20,10 @@
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
-  --mainTransition: all 0.3s linear;
+  --mainTransition: all 0.1s linear;
   --mainSpacing: 4px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.2);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -33,7 +33,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
   line-height: 1.4;
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
