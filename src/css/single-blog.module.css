@@ -149,6 +149,7 @@
 .blog h1,
 .blog h4 {
   text-transform: capitalize;
+  text-align: center;
 }
 .post {
   margin: 2rem 0;
@@ -169,12 +170,18 @@
     max-width: 420px;
     max-height: 350px;
   }
+  .center p {
+    padding: 10px;
+  }
 }
 
 @media (min-width: 400px) {
   .video {
     max-width: 390px;
     max-height: 250px;
+  }
+  .center p {
+    padding: 10px;
   }
 }
 
@@ -183,11 +190,17 @@
     max-width: 290px;
     max-height: 150px;
   }
+  .center p {
+    padding: 10px;
+  }
 }
 
 @media (min-width: 992px) {
   .video {
     max-width: 890px;
     max-height: 750px;
+  }
+  .center p {
+    padding: 10px;
   }
 }

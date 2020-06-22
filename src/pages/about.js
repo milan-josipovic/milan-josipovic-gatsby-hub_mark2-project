@@ -6,11 +6,41 @@ import { graphql } from "gatsby"
 
 import PartnerLogos from "../components/Home/PartnerLogos"
 
+import styles from "../css/single-blog.module.css"
+
+import Cooperation from "../components/Home/Cooperation"
+
 const about = ({ data }) => {
   return (
     <Layout>
       <StyledHero img={data.aboutUsBcg.childImageSharp.fluid} />
-      <div></div>
+      <section className={styles.blog}>
+        <div className={styles.center}>
+          <h4>o nama</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            qui atque aperiam consequatur. Molestiae minima consequatur
+            dignissimos explicabo repellat soluta, eaque impedit reprehenderit
+            alias, maiores aspernatur adipisci quod tempora quaerat. Cupiditate
+            voluptate dolores magni consequuntur ad numquam sunt sapiente vero.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            qui atque aperiam consequatur. Molestiae minima consequatur
+            dignissimos explicabo repellat soluta, eaque impedit reprehenderit
+            alias, maiores aspernatur adipisci quod tempora quaerat. Cupiditate
+            voluptate dolores magni consequuntur ad numquam sunt sapiente vero.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            qui atque aperiam consequatur. Molestiae minima consequatur
+            dignissimos explicabo repellat soluta, eaque impedit reprehenderit
+            alias, maiores aspernatur adipisci quod tempora quaerat. Cupiditate
+            voluptate dolores magni consequuntur ad numquam sunt sapiente vero.
+          </p>
+        </div>
+      </section>
+      <Cooperation />
       <PartnerLogos />
     </Layout>
   )
