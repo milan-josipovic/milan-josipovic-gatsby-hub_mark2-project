@@ -1,8 +1,27 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-const about = () => {
-  return <Layout>O RIS</Layout>
+import StyledHero from "../components/StyledHero"
+import { graphql } from "gatsby"
+
+const about = ({ data }) => {
+  return (
+    <Layout>
+      <StyledHero img={data.aboutUsBcg.childImageSharp.fluid} />
+    </Layout>
+  )
 }
+
+export const query = graphql`
+  query {
+    aboutUsBcg: file(relativePath: { eq: "aboutUsBcg.jpg" }) {
+      childImageSharp {
+        fluid(quality: 90, maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
 
 export default about

@@ -1,8 +1,27 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-const companies = () => {
-  return <Layout>Kompanije</Layout>
+import StyledHero from "../components/StyledHero"
+import { graphql } from "gatsby"
+
+const companies = ({ data }) => {
+  return (
+    <Layout>
+      <StyledHero img={data.defaultBcg.childImageSharp.fluid} />
+    </Layout>
+  )
 }
+
+export const query = graphql`
+  query {
+    defaultBcg: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+      childImageSharp {
+        fluid(quality: 90, maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
 
 export default companies
