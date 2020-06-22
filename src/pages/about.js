@@ -4,10 +4,14 @@ import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 
+import PartnerLogos from "../components/Home/PartnerLogos"
+
 const about = ({ data }) => {
   return (
     <Layout>
       <StyledHero img={data.aboutUsBcg.childImageSharp.fluid} />
+      <div></div>
+      <PartnerLogos />
     </Layout>
   )
 }

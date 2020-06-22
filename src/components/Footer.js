@@ -35,9 +35,7 @@ const Footer = () => {
       <div className={styles.contact}>
         <i class="fa fa-envelope"></i>
         <p>
-          <a href="mailto:soffice@rrazlatibor.co.rs">
-            office@rrazlatibor.co.rs
-          </a>
+          <a href="mailto:soffice@rrazlatibor.co.rs">office@rrazlatibor.rs</a>
         </p>
       </div>
       <div className={styles.copyright}>
