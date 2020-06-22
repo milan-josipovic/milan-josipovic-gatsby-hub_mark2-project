@@ -1,15 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
-
 import PartnerLogos from "../components/Home/PartnerLogos"
-
 import styles from "../css/single-blog.module.css"
-
 import Cooperation from "../components/Home/Cooperation"
-
+import SignIn from "../components/Home/SignIn"
 const about = ({ data }) => {
   return (
     <Layout>
@@ -40,6 +36,7 @@ const about = ({ data }) => {
           </p>
         </div>
       </section>
+      <SignIn />
       <Cooperation />
       <PartnerLogos />
     </Layout>
