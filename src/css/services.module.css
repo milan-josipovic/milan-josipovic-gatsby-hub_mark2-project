@@ -1,6 +1,6 @@
 .services {
-  background: var(--tertiaryColor);
-  padding: 4rem 0;
+  background: var(--primaryColor);
+  padding: 4rem 0;  
 }
 .center {
   width: 80vw;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 .service span {
-  background: var(--primaryColor);
+  background: white;
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1.5rem;
@@ -28,16 +28,34 @@
 }
 .services button a:hover {
   text-decoration: none;
-  color: var(--primaryColor);
+  color: white;
+}
+
+.text{
+  color: white;  
+}
+
+.title{
+  color: white;  
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .icon {
-  color: white;
+  color: var(--primaryColor);
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  border: solid 3px;
+  border-color: var(--tertiaryColor);
 }
+
 .signin {
   display: flex;
   justify-content: center;
+}
+
+button{
+  background-color: var(--tertiaryColor) !important;
+  color: var(--primaryColor) !important;
 }

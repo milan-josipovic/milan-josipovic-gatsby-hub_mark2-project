@@ -4,7 +4,7 @@ import Slide from "../components/Slide"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import FeaturedNews from "../components/Home/FeaturedNews"
-
+import Survey from "../components/Home/Survey"
 import LeafletMap from "../components/Map/LeafletMap"
 
 import PartnerLogos from "../components/Home/PartnerLogos"
@@ -13,6 +13,7 @@ export default () => (
   <Layout>
     {/* <section style={{ margin: "0.5rem 1rem" }}> */}
     <Slide />
+    {/* <Survey /> */}
     <About />
     <Services />
     <FeaturedNews />

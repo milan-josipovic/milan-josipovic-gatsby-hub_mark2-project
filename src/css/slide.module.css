@@ -9,9 +9,9 @@
   height: 100%;
 }
 .prev {
-  background:transparent;
-  background-color: transparent;
-  border-color: transparent;
+  background:transparent !important;
+  background-color: transparent !important;
+  border-color:transparent !important;
   position: absolute;
   top: 50%;
   left: 20px;
@@ -19,9 +19,9 @@
   padding: 0.5rem 0.5rem;
 }
 .next {
-  background:transparent;
-  background-color: transparent;
-  border-color: transparent;
+  background:transparent !important;
+  background-color: transparent !important;
+  border-color:transparent !important;
   position: absolute;
   top: 50%;
   right: 20px;
