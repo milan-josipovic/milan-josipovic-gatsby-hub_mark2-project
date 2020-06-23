@@ -6,6 +6,7 @@ import PartnerLogos from "../components/Home/PartnerLogos"
 import styles from "../css/single-blog.module.css"
 import Cooperation from "../components/Home/Cooperation"
 import SignIn from "../components/Home/SignIn"
+import Team from "../components/Home/Team"
 const about = ({ data }) => {
   return (
     <Layout>
@@ -38,6 +39,7 @@ const about = ({ data }) => {
       </section>
       <SignIn />
       <Cooperation />
+      <Team />
       <PartnerLogos />
     </Layout>
   )

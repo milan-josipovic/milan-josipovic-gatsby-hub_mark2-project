@@ -8,8 +8,8 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-column-gap: 6rem;  
-  text-align: center;  
+  grid-column-gap: 6rem;
+  text-align: center;
 }
 
 .partner-cards {
@@ -17,8 +17,12 @@
   -webkit-animation: fadeIn ease 7s;
   -moz-animation: fadeIn ease 7s;
   -o-animation: fadeIn ease 7s;
-  -ms-animation: fadeIn ease 7s;  
-  
+  -ms-animation: fadeIn ease 7s;
+}
+.info {
+  padding-top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1rem;
 }
 @keyframes fadeIn {
   0% {
