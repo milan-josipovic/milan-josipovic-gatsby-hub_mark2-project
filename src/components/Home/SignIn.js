@@ -12,8 +12,8 @@ const SignIn = () => {
           return (
             <article key={index} className={styles.service}>
               <span className={styles.icon}>{item.icon}</span>
-              <h4>{item.title}</h4>
-              <p>{item.text}</p>
+              <h4 className = {styles.text}>{item.title}</h4>
+              <p className = {styles.text}>{item.text}</p>
               {/* <button type="button" className="btn-primary">
                 <Link to={item.link}>{item.title}</Link>
               </button> */}
