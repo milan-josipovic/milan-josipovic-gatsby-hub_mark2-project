@@ -3,7 +3,16 @@ require("dotenv").config({
 })
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "RIS centar Užice",
+    description: "Regionalni inovacioni startup centar u Užicu (RIS centar) osnovan je uz pomoć „Programa podrške otvaranju regionalnih inovacionih startap centara“ kabineta ministra za inovacije i tehnološki razvoj u partnerstvu sa gradom Užicem i Akreditovanom regionalnom razvojnom agencijom „Zlatibor“ u cilju sistemske podrške inovacijama. Centar posluje kao deo mreže od 15 inovacionih centara formiranih u toku realizacije Programa",
+    author: "@udruzenje programera Uzice DATA",
+    twitterUsername:"",
+    image: '/logoB.jpg',
+    siteUrl: "https://rishubuzice.rs",
+  },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-react-leaflet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
