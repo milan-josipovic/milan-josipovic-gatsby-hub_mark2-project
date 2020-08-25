@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
-
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
+import SEO from '../components/SEO'
 
 const incubator = ({ data }) => {
   return (
     <Layout>
+      <SEO title="Inkubator"/>
       <StyledHero img={data.defaultBcg.childImageSharp.fluid} />
     </Layout>
   )

@@ -7,9 +7,12 @@ import styles from "../css/single-blog.module.css"
 import Cooperation from "../components/Home/Cooperation"
 import SignIn from "../components/Home/SignIn"
 import Team from "../components/Home/Team"
+import SEO from '../components/SEO'
+
 const about = ({ data }) => {
   return (
     <Layout>
+      <SEO title="O nama"/>
       <StyledHero img={data.aboutUsBcg.childImageSharp.fluid} />
       <section className={styles.blog}>
         <div className={styles.center}>

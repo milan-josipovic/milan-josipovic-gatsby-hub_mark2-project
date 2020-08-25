@@ -10,6 +10,7 @@ import { FaClone } from "react-icons/fa"
 import { FaFilePdf } from "react-icons/fa"
 import { FaDownload } from "react-icons/fa"
 import { FaFileWord } from "react-icons/fa"
+import SEO from '../components/SEO'
 
 const Blog = ({ data }) => {
   const {
@@ -117,6 +118,7 @@ const Blog = ({ data }) => {
   }
   return (
     <Layout>
+      <SEO title={title} />
       <section className={styles.blog}>
         <div className={styles.center}>
           <h1 className={styles.title}>{title}</h1>
