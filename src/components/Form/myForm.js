@@ -26,19 +26,19 @@ export default class MyForm extends React.Component {
             <div className={styles.accountDetails}>
               <div>
                 <label>Ime*</label>
-                <input type="text" name="name" required />
+                <input type="text" name="Ime" required />
               </div>
               <div>
                 <label>Prezime*</label>
-                <input type="text" name="name" required />
+                <input type="text" name="Prezime" required />
               </div>
               <div>
                 <label>Email*</label>
-                <input type="text" name="name" required />
+                <input type="text" name="Email" required />
               </div>
               <div>
                 <label>Telefon*</label>
-                <input type="text" name="name" required />
+                <input type="text" name="Telefon" required />
               </div>
             </div>
           </fieldset>
