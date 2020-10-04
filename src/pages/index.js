@@ -7,9 +7,9 @@ import FeaturedNews from "../components/Home/FeaturedNews"
 import Survey from "../components/Home/Survey"
 import LeafletMap from "../components/Map/LeafletMap"
 import PartnerLogos from "../components/Home/PartnerLogos"
-import SEO from '../components/SEO'
+import SEO from "../components/SEO"
 
-export default ({data}) => (
+export default ({ data }) => (
   <Layout>
     <SEO title="Početna" />
     {/* <section style={{ margin: "0.5rem 1rem" }}> */}
