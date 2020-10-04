@@ -6,11 +6,11 @@ const myForm = () => {
       <form
         name="contactForm"
         method="POST"
-        // action="/contact-thanks"
+        action="/form"
         // data-netlify-honeypot="bot-field"
         data-netlify="true"
-        // id="contact-form"
-        // className="contact-form"
+        id="contact-form"
+        className="contact-form"
       >
         <div className="banner">
           <h1>Volunteer Signup</h1>
