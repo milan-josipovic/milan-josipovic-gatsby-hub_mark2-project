@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import MyForm from "../components/Form/myform"
+import MyForm from "../components/Form/myForm"
 
 const form = () => {
   return (
