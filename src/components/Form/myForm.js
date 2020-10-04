@@ -49,19 +49,19 @@ export default class MyForm extends React.Component {
             </legend>
             <div className={styles.termsMailing}>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input type="checkbox" name="Zaposlen/a" />
                 <span>Zaposlen/a</span>
               </div>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input type="checkbox" name="Ne zaposlen/a" />
                 <span>Ne zaposlen/a</span>
               </div>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input type="checkbox" name="Student" />
                 <span>Student</span>
               </div>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input type="checkbox" name="Srednjoškolac" />
                 <span>Srednjoškolac</span>
               </div>
             </div>
@@ -73,19 +73,28 @@ export default class MyForm extends React.Component {
             </legend>
             <div className={styles.termsMailing}>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input type="checkbox" name="2D i 3D dizajn" />
                 <span>2D i 3D dizajn</span>
               </div>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input
+                  type="checkbox"
+                  name="Razvoj mobilnih aplikacija / React Native"
+                />
                 <span>Razvoj mobilnih aplikacija / React Native</span>
               </div>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input
+                  type="checkbox"
+                  name="Primena metoda i alata mašinskog učenja"
+                />
                 <span>Primena metoda i alata mašinskog učenja</span>
               </div>
               <div className={styles.checkbox}>
-                <input type="checkbox" name="checkbox" />
+                <input
+                  type="checkbox"
+                  name="Web razvoj za apsolutne početnike"
+                />
                 <span>Web razvoj za apsolutne početnike</span>
               </div>
             </div>
