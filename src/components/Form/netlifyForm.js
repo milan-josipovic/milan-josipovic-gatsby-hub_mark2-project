@@ -42,7 +42,7 @@ export default class NetlifyForm extends React.Component {
           method="post"
           action="/thanks/"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
+          // data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
