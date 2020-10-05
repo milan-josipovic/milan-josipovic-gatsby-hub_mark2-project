@@ -20,7 +20,7 @@ export default [
     text: "Usluge",
   },
   {
-    path: "/news",
+    path: "/vesti",
     text: "Vesti",
   },
   {

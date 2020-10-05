@@ -17,7 +17,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   data.posts.edges.forEach(({ node }) => {
     createPage({
-      path: `news/${node.slug}`,
+      path: `vesti/${node.slug}`,
       component: path.resolve("./src/templates/blog-template.js"),
       context: {
         slug: node.slug,

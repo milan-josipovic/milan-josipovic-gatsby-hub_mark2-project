@@ -10,7 +10,7 @@ import { FaClone } from "react-icons/fa"
 import { FaFilePdf } from "react-icons/fa"
 import { FaDownload } from "react-icons/fa"
 import { FaFileWord } from "react-icons/fa"
-import SEO from '../components/SEO'
+import SEO from "../components/SEO"
 
 const Blog = ({ data }) => {
   const {
@@ -128,7 +128,7 @@ const Blog = ({ data }) => {
             {documentToReactComponents(json, options)}
           </article>
           <div className={styles.allBlogsButton}>
-            <Link to="/news" className="btn-primary">
+            <Link to="/vesti" className="btn-primary">
               svi postovi
             </Link>
           </div>
