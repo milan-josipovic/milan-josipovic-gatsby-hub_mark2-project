@@ -13,6 +13,7 @@ export default class MyForm extends React.Component {
     const { status } = this.state
     return (
       <div className={styles.mainBlock}>
+        <div className={styles.center}>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/f/xjvaolkb"
@@ -20,8 +21,8 @@ export default class MyForm extends React.Component {
         >
           <h1>Prijava za kurs</h1>
           <fieldset>
-            <legend>
-              <h3>Lični podaci</h3>
+            <legend >
+              <h3 className={styles.mt3}>Lični podaci</h3>
             </legend>
             <div className={styles.accountDetails}>
               <div>
@@ -45,7 +46,7 @@ export default class MyForm extends React.Component {
 
           <fieldset>
             <legend>
-              <h3>Status</h3>
+              <h3 className={styles.mt3}>Status</h3>
             </legend>
             <div className={styles.termsMailing}>
               <div className={styles.checkbox}>
@@ -69,7 +70,7 @@ export default class MyForm extends React.Component {
 
           <fieldset>
             <legend>
-              <h3>Izaberite kurs</h3>
+              <h3 className={styles.mt3}>Izaberite kurs</h3>
             </legend>
             <div className={styles.termsMailing}>
               <div className={styles.checkbox}>
@@ -100,10 +101,11 @@ export default class MyForm extends React.Component {
             </div>
           </fieldset>
 
-          <button type="submit" href="/">
+          <button className={styles.submitButton} type="submit" href="/">
             Prijavi se
           </button>
         </form>
+        </div>
       </div>
     )
   }

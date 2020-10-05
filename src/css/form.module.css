@@ -23,16 +23,31 @@ h3 {
   margin: 12px 0;
   color: #8ebf42;
 }
+
 .main-block {
   display: flex;
   justify-content: center;
   align-items: center;
   background: #fff;
 }
+
+.center
+{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+}
+
 form {
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
 }
+
+.mt-3{
+  margin-top: 30px !important;
+}
+
 fieldset {
   border: none;
   border-top: 1px solid #8ebf42;
@@ -56,8 +71,7 @@ label {
   width: 100%;
 }
 label {
-  padding: 0 5px;
-  text-align: right;
+  padding: 0 5px;  
   vertical-align: middle;
 }
 input {
@@ -108,6 +122,21 @@ select {
 .checkbox a:hover {
   color: #82b534;
 }
+
+.submit-button{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-self: center;
+  width: 20%;
+  justify-content: center;
+  color: white !important;
+}
+
+.submit-button:hover{
+  background-color: teal !important;
+}
+
 button {
   width: 100%;
   padding: 10px 0;
