@@ -40,7 +40,7 @@ export default class NetlifyForm extends React.Component {
         <form
           name="prijava"
           method="post"
-          action="/index/"
+          action="/index.js/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
