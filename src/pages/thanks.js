@@ -1,12 +1,21 @@
 import React from "react"
+import Layout from "../components/Layout"
+import styles from "../css/error.module.css"
 import { Link } from "gatsby"
-const thanks = () => {
+import Banner from "../components/Banner"
+import SEO from "../components/SEO"
+
+export default function thanks() {
   return (
-    <div>
-      Hvala. :)
-      <Link to="/">Natrag na početnu</Link>
-    </div>
+    <Layout>
+      <SEO title="Error" />
+      <header className={styles.error}>
+        <Banner title="Vaša prijava je uspešno poslata.">
+          <Link to="/" className="btn-white">
+            natrag na početnu stranicu
+          </Link>
+        </Banner>
+      </header>
+    </Layout>
   )
 }
-
-export default thanks
