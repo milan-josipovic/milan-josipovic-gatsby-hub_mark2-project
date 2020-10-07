@@ -18,6 +18,10 @@
   opacity: 0.3;
 }
 
+.title{
+  text-align: left;
+}
+
 .link {
   position: absolute;
   top: 50%;

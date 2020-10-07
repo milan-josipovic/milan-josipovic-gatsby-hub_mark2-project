@@ -15,9 +15,9 @@ const Vesti = ({ news }) => {
         </Link>
       </div>
       <div className={styles.footer}>
-        <h3>{title}</h3>
+        <h3 className={styles.title}>{title}</h3>
         <div className={styles.info}>
-          <h4 className={styles.country}>{published}</h4>
+          <h5 className={styles.country}>{published}</h5>
         </div>
       </div>
     </article>
