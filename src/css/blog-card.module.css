@@ -6,7 +6,7 @@
   box-shadow: var(--darkShadow);
 }
 
-.img-container {
+.img-container { 
   position: relative;
   background: var(--primaryColor);
   transition: var(--mainTransition);
@@ -16,6 +16,10 @@
 }
 .img-container:hover .img {
   opacity: 0.3;
+}
+
+.title{
+  font-size: x-large;
 }
 
 .link {
@@ -54,6 +58,7 @@
   position: absolute;
   left: 0;
   top: 75%;
+  color: white;
   background: var(--primaryColor);
   padding: 0.3rem 0.5rem;
   border-top-right-radius: 1rem;

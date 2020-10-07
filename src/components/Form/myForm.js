@@ -12,7 +12,7 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state
     return (
-      <div className={styles.mainBlock}>
+      <div className={styles.mainBlock}>        
         <div className={styles.center}>
         <form
           onSubmit={this.submitForm}

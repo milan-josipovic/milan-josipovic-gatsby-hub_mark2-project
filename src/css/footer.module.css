@@ -43,8 +43,9 @@
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   line-height: 2;
+  color: white;
 }
 .contact p a {
-  color: white;
-  font-size: 18px;
+  color: white !important;
+  font-size: 18px;  
 }

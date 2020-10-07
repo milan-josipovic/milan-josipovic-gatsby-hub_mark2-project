@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Map, TileLayer, Marker, Popup } from "react-leaflet"
 import "./leafletmap.css"
+import styles from "../../css/map.module.css"
 
 class LeafletMap extends React.Component {
   static propTypes = {
@@ -23,6 +24,8 @@ class LeafletMap extends React.Component {
 
   render() {
     return (
+      <div className={styles.main}>
+        <div className={styles.mapSection}>
       <Map center={this.props.position} zoom={this.props.zoom}>
         <TileLayer
           url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
@@ -34,6 +37,12 @@ class LeafletMap extends React.Component {
           </Marker>
         )}
       </Map>
+      </div>
+      {/* <div className={styles.infoSection}>
+        <h1>test</h1>
+        <h1>test</h1>
+      </div> */}
+      </div>
     )
   }
 }

@@ -1,9 +1,6 @@
 import React from "react"
 import styles from "../css/footer.module.css"
 import socialIcons from "../constants/social-icons"
-import logoCity from "../images/gradLogo.png"
-import logoRRA from "../images/rraLogo.jpg"
-import logoministry from "../images/ministarstvoLogo2.png"
 import "bootstrap/dist/css/bootstrap.min.css"
 const Footer = () => {
   return (
@@ -22,15 +19,9 @@ const Footer = () => {
           )
         })}
       </div>
-      {/* <h3>Osnivaci</h3>
-      <div className={styles.logos}>
-        <img className={styles.logo} src={logoministry}></img>
-        <img className={styles.logo} src={logoCity}></img>
-        <img className={styles.logo} src={logoRRA}></img>
-      </div> */}
-      <div>
+      <div className={styles.contact}>
         <i class="fa fa-phone"></i>
-        <p>+381 31 523 065</p>
+        <p >+381 31 523 065</p>
       </div>
       <div className={styles.contact}>
         <i class="fa fa-envelope"></i>

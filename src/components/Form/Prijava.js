@@ -39,6 +39,7 @@ export default class Prijava extends React.Component {
   render() {
     return (
       <div className={styles.container}>
+        <div className={styles.center}>
         <h2 id="head">Prijava za kurseve</h2>
         <form
           name="prijava"
@@ -146,18 +147,15 @@ export default class Prijava extends React.Component {
                   <input
                     type="checkbox"
                     value="none"
-                    id="Primena metoda i alata mašinskog učenja
-"
-                    name="Primena metoda i alata mašinskog učenja
-"
+                    id="Primena metoda i alata mašinskog učenja"
+                    name="Primena metoda i alata mašinskog učenja"
                     onChange={this.handleChange}
                   />
-                  <label
-                    for="Primena metoda i alata mašinskog učenja
-"
+                  <label 
+                    for="Primena metoda i alata mašinskog učenja"     
                     className={styles.radio}
                   >
-                    Primena metoda i alata mašinskog učenja
+                    Primena metoda i alata mašinskog učenja  
                   </label>
                 </p>
                 <p>
@@ -271,13 +269,13 @@ export default class Prijava extends React.Component {
           </div>
           {/* <br> */}
 
-          <div className={styles.row}>
-            <div className={styles.col - 25}></div>
-            <div className={styles.col - 75}>
+          <div className={styles.row}>           
+            <div className={styles.button}>
               <input type="submit" value="Pošalji" />
             </div>
           </div>
         </form>
+        </div>
       </div>
     )
   }

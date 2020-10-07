@@ -15,7 +15,7 @@ const BlogCardNews = ({ blog }) => {
         <h6 className={styles.date}>{published}</h6>
       </div>
       <div className={styles.footer}>
-        <h4>{title}</h4>
+        <p className={styles.title}>{title}</p>
       </div>
     </article>
   )
