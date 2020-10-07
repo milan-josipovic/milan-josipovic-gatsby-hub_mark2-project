@@ -1,5 +1,5 @@
 import React from "react"
-import News from "../News/News"
+import Vesti from "../News/Vesti"
 import { useStaticQuery, graphql } from "gatsby"
 import Title from "../Title"
 import styles from "../../css/items.module.css"
@@ -35,10 +35,10 @@ const FeaturedNews = () => {
       <Title title="poslednje" subtitle="vesti" />
       <div className={styles.center}>
         {news.map(({ node }) => {
-          return <News key={node.contentful_id} news={node} />
+          return <Vesti key={node.contentful_id} news={node} />
         })}
       </div>
-      <Link fade to="/news" className="btn-primary">
+      <Link fade to="/vesti" className="btn-primary">
         sve vesti
       </Link>
     </section>
