@@ -100,6 +100,15 @@ export default class Prijava extends React.Component {
                 required
                 onChange={this.handleChange}
               />
+              <label id="icon" for="email"></label>
+              <input
+                type="text"
+                name="email"
+                id="name"
+                placeholder="Email"
+                required
+                onChange={this.handleChange}
+              />
             </div>
             <br />
             <div className={styles.row}>
