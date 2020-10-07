@@ -9,7 +9,7 @@ const BlogCardNews = ({ blog }) => {
     <article className={styles.blog}>
       <div className={styles.imgContainer}>
         <Image fluid={image.fluid} className={styles.img} alt="single post" />
-        <Link fade className={styles.link} to={`/news/${slug}`}>
+        <Link fade className={styles.link} to={`/vesti/${slug}`}>
           procitajte vise
         </Link>
         <h6 className={styles.date}>{published}</h6>

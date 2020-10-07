@@ -3,14 +3,14 @@ import Image from "gatsby-image"
 import styles from "../../css/tour.module.css"
 import { Link } from "gatsby"
 
-const News = ({ news }) => {
+const Vesti = ({ news }) => {
   const { title, published, slug, image } = news
   let mainImage = image.fluid
   return (
     <article className={styles.tour}>
       <div className={styles.imgContainer}>
         <Image fluid={mainImage} className={styles.img} alt="single news" />
-        <Link fade className={styles.link} to={`/news/${slug}`}>
+        <Link fade className={styles.link} to={`/vesti/${slug}`}>
           detaljnije
         </Link>
       </div>
@@ -24,4 +24,4 @@ const News = ({ news }) => {
   )
 }
 
-export default News
+export default Vesti
