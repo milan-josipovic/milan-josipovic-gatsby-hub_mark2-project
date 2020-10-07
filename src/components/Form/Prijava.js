@@ -75,7 +75,7 @@ export default class Prijava extends React.Component {
               <label id="icon" for="prezime"></label>
               <input
                 type="text"
-                name="Ime"
+                name="Prezime"
                 id="prezime"
                 placeholder="Prezime"
                 required
