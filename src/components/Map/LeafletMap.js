@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Map, TileLayer, Marker, Popup } from "react-leaflet"
+import { Map, TileLayer, Marker, Popup, Tooltip } from "react-leaflet"
 import "./leafletmap.css"
 import styles from "../../css/map.module.css"
 
@@ -26,19 +26,29 @@ class LeafletMap extends React.Component {
     return (
       <div className={styles.main}>
         <div className={styles.mapSection}>
-      <Map center={this.props.position} zoom={this.props.zoom}>
-        <TileLayer
-          url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        />
-        {this.props.markerText !== "" && (
-          <Marker position={this.props.position}>
-            <Popup>{this.props.markerText}</Popup>
-          </Marker>
-        )}
-      </Map>
-      </div>
-      {/* <div className={styles.infoSection}>
+          <Map center={this.props.position} zoom={this.props.zoom}>
+            <TileLayer
+              url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            />
+            {this.props.markerText !== "" && (
+              <Marker position={this.props.position}>
+                <Popup>
+                  {/* {this.props.markerText} */}
+                  <h4>RIS Hub Užice</h4>
+                  <a
+                    href="https://goo.gl/maps/eZY2QuYWvvi8gd4DA"
+                    target="_blank"
+                  >
+                    pronađite rutu do RIS-a na Google Maps
+                  </a>
+                </Popup>
+                {/* <Tooltip>{this.props.markerText}</Tooltip> */}
+              </Marker>
+            )}
+          </Map>
+        </div>
+        {/* <div className={styles.infoSection}>
         <h1>test</h1>
         <h1>test</h1>
       </div> */}

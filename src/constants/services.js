@@ -12,13 +12,15 @@ export default [
   {
     icon: <AiOutlineStar />,
     title: "Kompanije",
-    text: "Mesto gde ideja postaje biznis.",
+    text:
+      "Mesto gde ideja postaje biznis. Zaposleni RRA će ti uvek pomoći oko biznis plana... ",
     link: "/services",
   },
   {
     icon: <AiOutlineLink />,
     title: "Pridružite nam se",
-    text: "Pristupite i budite deo ekosistema startapova širom Srbije.",
+    text:
+      "Pristupite i budite deo ekosistema startapova širom Srbije. Na ovaj način širimo saradnju...",
     link: "/services",
   },
 ]

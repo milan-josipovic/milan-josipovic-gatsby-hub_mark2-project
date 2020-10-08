@@ -25,7 +25,7 @@ export default ({ data }) => (
       <LeafletMap
         position={[43.853539, 19.855175]}
         zoom={16}
-        markerText={"RIS Hub Užice"}
+        markerText={"RIS Hub Užice "}
       />
     )}
     <PartnerLogos />
