@@ -8,6 +8,7 @@ import Cooperation from "../components/Home/Cooperation"
 import SignIn from "../components/Home/SignIn"
 import Team from "../components/Home/Team"
 import SEO from '../components/SEO'
+import ServicesV2 from "../components/Home/ServicesV2"
 
 const about = ({ data }) => {
   return (
@@ -31,18 +32,13 @@ const about = ({ data }) => {
             alias, maiores aspernatur adipisci quod tempora quaerat. Cupiditate
             voluptate dolores magni consequuntur ad numquam sunt sapiente vero.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            qui atque aperiam consequatur. Molestiae minima consequatur
-            dignissimos explicabo repellat soluta, eaque impedit reprehenderit
-            alias, maiores aspernatur adipisci quod tempora quaerat. Cupiditate
-            voluptate dolores magni consequuntur ad numquam sunt sapiente vero.
-          </p>
+          
         </div>
       </section>
-      <SignIn />
-      <Cooperation />
-      <Team />
+      {/* <SignIn /> */}
+      <ServicesV2/>
+      {/* <Cooperation /> */}
+      {/* <Team /> */}
       <PartnerLogos />
     </Layout>
   )
