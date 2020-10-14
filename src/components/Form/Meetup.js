@@ -40,7 +40,7 @@ export default class Meetup extends React.Component {
     return (
       <div className={styles.container}>
         <div className={styles.center}>
-        <h2 id="head">Prijava za kurseve</h2>
+        <h2 id="head">Prijava za meetup</h2>
         <form
           name="meetup"
           method="post"
@@ -61,7 +61,7 @@ export default class Meetup extends React.Component {
           <div className={styles.row}>
             <div className={styles.col - 25}></div>
             <div className={styles.col - 75}>
-              <h3>Lični podaci</h3>
+              {/* <h3>Lični podaci</h3> */}
               <label id="icon" for="name"></label>
               <input
               // required="true"
@@ -113,7 +113,7 @@ export default class Meetup extends React.Component {
               />
             </div>
             <br />
-            <div className={styles.row}>
+            {/* <div className={styles.row}>
               <div className={styles.col - 25}></div>
               <div className={styles.col - 75}>
                 <h3>Izaberite kurseve</h3>
@@ -211,9 +211,9 @@ export default class Meetup extends React.Component {
                   </label>
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className={styles.row}>
+            {/* <div className={styles.row}>
               <div className={styles.col - 25}></div>
               <div className={styles.col - 75}>
                 <h3>Status</h3>
@@ -266,7 +266,7 @@ export default class Meetup extends React.Component {
                   </label>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <br> */}
 
