@@ -147,9 +147,13 @@
 }
 
 .blog h1,
-.blog h4 {
+.blog h2 {
   text-transform: capitalize;
   text-align: center;
+}
+.blog h4 {
+  text-transform: capitalize;
+  text-align: left;
 }
 .post {
   margin: 2rem 0;

@@ -12,16 +12,16 @@ textarea {
   resize: vertical;
 }
 
-.center{
-  width: 50%; 
+.center {
+  width: 50%;
   margin: auto;
 }
 
-.radio{  
+.radio {
   width: 90%;
   padding-top: 0px !important;
-  display:inline-block;
-    vertical-align:top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 label {
@@ -43,7 +43,7 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-.container { 
+.container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -63,7 +63,7 @@ input[type="submit"]:hover {
   margin-top: 6px;
 }
 
-.button{  
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,17 +89,24 @@ input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
-  .center{
-    width: 100%;    
+  .center {
+    width: 100%;
   }
 }
 
 #head,
 h2,
-h3 {
-  text-align: center;
+h3,
+h4 {
+  text-align: left;
 }
 div > #btn {
   display: flex !important;
   align-items: center !important;
+}
+p {
+  margin: 0;
+}
+li {
+  margin-left: 2.5rem;
 }
