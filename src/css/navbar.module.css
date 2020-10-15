@@ -4,7 +4,12 @@
   align-items: center;
   padding: 1rem 1.25rem;
 }
+
+.menu-item{
+  margin-left: 0;
+}
 .logo-btn {
+  background-color: transparent !important;
   background: transparent;
   border: none;
   outline: none;
@@ -22,7 +27,9 @@
   transition: var(--mainTransition);
   height: 0;
   overflow: hidden;
+  margin:0;
 }
+
 .show-nav {
   height: 486px;
 }
@@ -34,7 +41,8 @@
   color: var(--mainBlack);
   transition: var(--mainTransition);
   font-weight: bold;
-  letter-spacing: var(--mainSpacing);
+  font-size: medium;
+  /* letter-spacing: var(--mainSpacing); */
 }
 .nav-links a:hover {
   color: var(--primaryColor);

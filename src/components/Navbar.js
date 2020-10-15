@@ -28,7 +28,7 @@ const Navbar = () => {
         >
           {links.map((item, index) => {
             return (
-              <li key={index}>
+              <li className={styles.menuItem} key={index}>
                 <Link to={item.path}>{item.text}</Link>
               </li>
             )
