@@ -285,7 +285,7 @@ export default class Prijava extends React.Component {
 //         </div>
 //       </div>
 <Layout>
-      <SEO title="Error" />
+      <SEO title="Prijava" />
       <header className={styles.error}>
         <Banner title="Prijavljivanje za obuke je završeno.">
           <Link to="/" className="btn-white">
