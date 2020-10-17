@@ -5,9 +5,9 @@ import Prijava from "../components/Form/Prijava"
 const prijava = () => {
   return (
     <div>
-      <Layout>
+      {/* <Layout> */}
         <Prijava />
-      </Layout>
+      {/* </Layout> */}
     </div>
   )
 }
