@@ -122,8 +122,8 @@ const Blog = ({ data }) => {
       <section className={styles.blog}>
         <div className={styles.center}>
           <h1 className={styles.title}>{title}</h1>
-          <h5 className={styles.published}>Autor : {author}</h5>
-          <h5 className={styles.published}>Objavljeno : {published}</h5>
+          <p className={styles.published}>Autor : {author}</p>
+          <p className={styles.published}>Objavljeno : {published}</p>
           <article className={styles.post}>
             {documentToReactComponents(json, options)}
           </article>
