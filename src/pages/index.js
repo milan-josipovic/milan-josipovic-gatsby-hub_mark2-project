@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Slide from "../components/Slide"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
+import Konkurs from "../components/Form/Konkurs"
 import FeaturedNews from "../components/Home/FeaturedNews"
 import Survey from "../components/Home/Survey"
 import LeafletMap from "../components/Map/LeafletMap"
@@ -17,6 +18,7 @@ export default ({ data }) => (
     {/* <Survey /> */}
     <About />
     <Services />
+    <Konkurs />
     <FeaturedNews />
 
     {/* </section> */}

@@ -25,3 +25,27 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions
+
+  const { data } = await graphql(`
+    {
+      events: allContentfulEvent {
+        nodes {
+          slug
+        }
+      }
+    }
+  `)
+
+  data.events.nodes.forEach(event => {
+    createPage({
+      path: `dogadjaji/${event.slug}`,
+      component: path.resolve(`./src/templates/event-template.js`),
+      context: {
+        slug: event.slug,
+      },
+    })
+  })
+}
