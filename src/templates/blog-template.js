@@ -11,8 +11,8 @@ import { FaFilePdf } from "react-icons/fa"
 import { FaDownload } from "react-icons/fa"
 import { FaFileWord } from "react-icons/fa"
 import SEO from "../components/SEO"
-
-const Blog = ({ data }) => {
+//update
+const Blog = ({ data  }) => {
   const {
     title,
     published,
