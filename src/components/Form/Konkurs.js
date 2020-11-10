@@ -38,6 +38,18 @@ export default class MyForm extends React.Component {
               prijavljenim kandidatima i na kraju konačna odluka na osnovu
               procesa ocenjivanja i obavljenog intervjua.
             </p>
+            <p className={styles.text}>
+              Selekcija stanara vrši se kroz tri koraka: najpre predselekcija na
+              osnovu dostavljene dokumentacije, zatim sledi intervju sa
+              prijavljenim kandidatima i na kraju konačna odluka na osnovu
+              procesa ocenjivanja i obavljenog intervjua.
+            </p>
+            <p className={styles.text}>
+              Selekcija stanara vrši se kroz tri koraka: najpre predselekcija na
+              osnovu dostavljene dokumentacije, zatim sledi intervju sa
+              prijavljenim kandidatima i na kraju konačna odluka na osnovu
+              procesa ocenjivanja i obavljenog intervjua.
+            </p>
           </div>
 
           <div className={styles.form_box}>
@@ -88,27 +100,31 @@ export default class MyForm extends React.Component {
                 </div>
               </div>
               <div className={styles.form_option}>
-                <h4 className={styles.text_small}>imate li startup ideju</h4>
-                <label htmlFor="Da">Da</label>
-                <input
-                  className={styles.check}
-                  type="radio"
-                  name="startupIdeje"
-                  id="startupIdeje"
-                  value="da"
-                />
-                <label htmlFor="Ne">Ne</label>
-                <input
-                  className={styles.check}
-                  type="radio"
-                  name="startupIdeje"
-                  id="startupIdeje"
-                  value="ne"
-                />
+                <div>
+                  <h4 className={styles.heading}>Imate li startup ideju?</h4>
+                </div>
+                <div className="options">
+                  <label htmlFor="Da">Da</label>
+                  <input
+                    className={styles.check}
+                    type="radio"
+                    name="startupIdeje"
+                    id="startupIdeje"
+                    value="da"
+                  />
+                  <label htmlFor="Ne">Ne</label>
+                  <input
+                    className={styles.check}
+                    type="radio"
+                    name="startupIdeje"
+                    id="startupIdeje"
+                    value="ne"
+                  />
+                </div>
               </div>
               <div>
                 <div>
-                  <h4 className={styles.text_small}>
+                  <h4 className={styles.heading}>
                     Koja su tvoja znanja i veštine?
                   </h4>
                 </div>
@@ -123,7 +139,9 @@ export default class MyForm extends React.Component {
                 </select>
               </div>
               <div>
-                <label>Zašto želiš da se priključiš startapu? *</label>
+                <h4 className={styles.heading}>
+                  Zašto želiš da se priključiš startapu? *
+                </h4>
                 <textarea
                   className={styles.form_text}
                   name="text"
@@ -136,7 +154,7 @@ export default class MyForm extends React.Component {
               {status === "SUCCESS" ? (
                 <p>Thanks!</p>
               ) : (
-                <button className={styles.btn}>Submit</button>
+                <button className={styles.btn}>Posalji</button>
               )}
               {status === "ERROR" && <p>Ooops! There was an error.</p>}
             </form>
