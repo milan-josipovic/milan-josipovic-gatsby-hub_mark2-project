@@ -12,6 +12,8 @@
   background-color: transparent !important;
   border: none;
   outline: none;
+  margin-top: 15%;
+  margin-left: 20%;
 }
 .logo-btn:hover {
   cursor: pointer;

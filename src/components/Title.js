@@ -18,10 +18,11 @@ export default styled(Title)`
   h4 {
     text-align: center;
     letter-spacing: 10px;
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     color: var(--primaryColor);
   }
   .title {
+    margin-top: 2rem;
     color: var(--mainBlack);
   }
   span {
