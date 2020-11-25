@@ -125,7 +125,7 @@ export default class MyForm extends React.Component {
                   />
                 </div>
               </div>
-              <div>
+              <div className={styles.vestine}>
                 <div>
                   <h4 className={styles.heading}>
                     Koja su tvoja znanja i veštine?
@@ -141,7 +141,7 @@ export default class MyForm extends React.Component {
                   <option value="Razvoj proizvoda">Razvoj proizvoda</option>
                 </select>
               </div>
-              <div>
+              <div className={styles.prikljucivanje}>
                 <h4 className={styles.heading}>
                   Zašto želiš da se priključiš startapu? *
                 </h4>

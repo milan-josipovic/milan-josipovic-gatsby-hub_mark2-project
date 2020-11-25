@@ -4,23 +4,23 @@
   gap: 1rem;
 }
 
-.concourse {
-  margin: 2rem 0;
-}
-
 .form {
   background-color: #007ba8dc;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  cursor: pointer;
   padding: 2rem;
-  margin-top: -4%;
-  box-shadow: 16px 13px 6px rgba(10, 67, 107, 0.171);
+  margin-top: -12%;
+  box-shadow: 8px 8px 3px 2px rgba(10, 67, 107, 0.171);
+}
+label {
+  color: white;
 }
 
 .container {
   max-width: 1420px;
-  margin: 0 auto;
+  margin: 0 10%;
   display: flex;
 }
 
@@ -31,7 +31,7 @@
 
 .form_box {
   width: 100%;
-  padding: 5rem 2rem;
+  padding: 10% 3%;
   margin: 0 auto;
   max-width: 55rem;
 }
@@ -41,6 +41,7 @@
   height: 2rem;
   /* max-width: 20rem !important; */
   width: 100% !important;
+  cursor: pointer;
   outline: none;
   border: none;
   background-color: #f5f5f5;
@@ -69,7 +70,7 @@
 }
 
 .text_box {
-  max-width: 90%;
+  max-width: 100%;
   margin-top: 3rem;
 }
 
@@ -90,10 +91,18 @@
   align-items: center;
   margin-top: 1rem;
 }
+.vestine {
+  width: 100%;
+}
+.prikljucivanje {
+  width: 100%;
+}
 
 .heading {
+  color: white;
   font-size: 1rem;
   margin-top: 0.7rem;
+  letter-spacing: inherit;
 }
 
 .margin_right {
@@ -108,6 +117,9 @@
   background-color: #006185 !important;
   margin-top: 1rem;
 }
+.btn:hover {
+  background-color: #033041 !important;
+}
 
 .btn:focus {
   outline: none;
@@ -117,5 +129,22 @@
   .container {
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+  }
+  .margin_right {
+    margin-right: auto;
+  }
+  .form {
+    padding: 5%;
+  }
+  .form_top {
+    display: block;
+    width: 100%;
+  }
+  .form_option {
+    display: block;
+  }
+  .text_box {
+    margin: 2% 5%;
   }
 }
