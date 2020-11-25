@@ -51,15 +51,15 @@ const About = () => {
             i civilnog sektora, kao i da pronadju i koriste različite vrste i
             izvore finansiranja.
           </p>
-          <p className={styles.aboutText}>
+          {/* <p className={styles.aboutText}>
             Cilj je da Zlatiborski okrug postane atraktivna lokacija za
             investicije zasnovane na znanju, inovacijama i informacionim
             tehnologijama u kојој se mladim I kreativnim ljudima pruža mogućnost
             i podrškа za započinjanje sopstvenog biznisa I pomaže u saradnji sa
             firmama iz zemlje i inostranstva.
-          </p>
+          </p> */}
           <button type="button" className="btn-primary">
-            <Link to="services">procitajte vise</Link>
+            <Link to="/about">procitajte vise</Link>
           </button>
         </article>
       </div>

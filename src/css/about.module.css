@@ -1,10 +1,16 @@
 .about {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
 .about-center {
   width: 80vw;
   margin: 0 auto;
 }
+
+.section-about {
+  margin: 0 auto;
+  width: 50%;
+}
+
 .about-img {
   margin: 3rem 0;
 }
@@ -38,7 +44,7 @@
 
 .aboutText {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   line-height: 1.4;
   text-align: justify;
 }

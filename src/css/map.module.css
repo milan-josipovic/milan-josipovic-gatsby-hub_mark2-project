@@ -1,15 +1,15 @@
-.main{
-    display: flex;
+.main {
+  display: flex;
 }
 
-.map-section{
-  display: flex;    
-  flex:2
+.map-section {
+  display: flex;
+  flex: 2;
 }
 
-.info-section{
-    display: flex;
-    flex-direction: column;
-    flex: 1;    
-    background-color: #e0e0e0;
+.info-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #e0e0e0;
 }

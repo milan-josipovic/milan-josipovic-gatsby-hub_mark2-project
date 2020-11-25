@@ -50,6 +50,9 @@ export default class MyForm extends React.Component {
               prijavljenim kandidatima i na kraju konačna odluka na osnovu
               procesa ocenjivanja i obavljenog intervjua.
             </p>
+            <p>
+              Prijavljivanje se vrši popunjavanjem <b>kontakt forme.</b>
+            </p>
           </div>
 
           <div className={styles.form_box}>

@@ -28,10 +28,6 @@ export default [
   //   text: "Galerija",
   // },
   {
-    path: "/announcement",
-    text: "Objave",
-  },
-  {
     path: "/contact",
     text: "Kontakt",
   },

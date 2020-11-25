@@ -1,6 +1,6 @@
 .footer {
-  background: var(--primaryColor);
-  padding: 2rem;
+  background: var(--secondaryColor);
+  padding: 4rem;
   text-align: center;
   color: var(--mainWhite);
 }
@@ -47,5 +47,5 @@
 }
 .contact p a {
   color: white !important;
-  font-size: 18px;  
+  font-size: 18px;
 }
