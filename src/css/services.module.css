@@ -1,6 +1,14 @@
 .services {
-  background: var(--primaryColor);
+  background-image: linear-gradient(
+      to left,
+      rgba(6, 79, 110, 0.85),
+      rgba(6, 125, 180, 0.616)
+    ),
+    url(../images/startap.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 6rem 0;
+  /* height: 70vh; */
 }
 .center {
   width: 80vw;
@@ -12,13 +20,18 @@
 .service {
   margin: 2rem auto;
   text-align: center;
-  background-color: #3535351a;
+  background-color: rgba(6, 79, 110, 0.795);
   padding: 1rem;
   max-width: 22rem;
   height: 20rem;
+  transition: all 0.3s;
+}
+
+.service:hover {
+  transform: translateY(-2rem);
 }
 .service span {
-  background: white;
+  /* background: white; */
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1.5rem;
@@ -43,17 +56,19 @@
 }
 
 .title {
-  color: white;
-  text-transform: uppercase;
+  color: rgb(238, 238, 238) !important;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 3.2rem;
 }
 
 .icon {
-  color: var(--primaryColor);
+  color: var(--mainGrey);
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  border: solid 3px;
+  border: solid 2px;
   border-color: var(--tertiaryColor);
 }
 

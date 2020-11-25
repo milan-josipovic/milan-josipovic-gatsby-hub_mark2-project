@@ -9,12 +9,13 @@
 }
 
 .form {
-  background-color: rgba(10, 67, 107, 0.336);
+  background-color: #007ba8dc;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 2rem;
-  box-shadow: 1rem 0.5rem 0.5rem rgba(10, 67, 107, 0.171);
+  margin-top: -4%;
+  box-shadow: 16px 13px 6px rgba(10, 67, 107, 0.171);
 }
 
 .container {
@@ -104,6 +105,7 @@
   font-size: 1.2rem;
   border: none;
   color: #f5f5f5 !important;
+  background-color: #006185 !important;
   margin-top: 1rem;
 }
 

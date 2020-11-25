@@ -3,11 +3,7 @@ import Layout from "../components/Layout"
 import Registacija from "../components/Form/Registracija"
 
 const stanari = () => {
-  return (
-    <Layout>
-      <Registacija></Registacija>
-    </Layout>
-  )
+  return <Layout></Layout>
 }
 
 export default stanari

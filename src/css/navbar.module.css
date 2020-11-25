@@ -5,17 +5,19 @@
   padding: 1rem 1.25rem;
 }
 
-.menu-item{
+.menu-item {
   margin-left: 0;
 }
 .logo-btn {
   background-color: transparent !important;
-  background: transparent;
   border: none;
   outline: none;
 }
 .logo-btn:hover {
   cursor: pointer;
+}
+.logo-btn:focus {
+  outline: none;
 }
 .logo-icon {
   color: var(--primaryColor);
@@ -27,7 +29,7 @@
   transition: var(--mainTransition);
   height: 0;
   overflow: hidden;
-  margin:0;
+  margin: 0;
 }
 
 .show-nav {
@@ -36,7 +38,7 @@
 .nav-links a {
   display: block;
   padding: 1rem 1.25rem;
-  text-decoration: none;
+  text-decoration: none !important;
   text-transform: uppercase;
   color: var(--mainBlack);
   transition: var(--mainTransition);

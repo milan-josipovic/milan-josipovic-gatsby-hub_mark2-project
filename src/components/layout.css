@@ -13,8 +13,8 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5); */
 
   --primaryColor: #064e6e;
-  --secondaryColor: #064e6f;
-  --tertiaryColor: #40a3e9;
+  --secondaryColor: #067db4;
+  --tertiaryColor: #4d94c7;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -37,6 +37,10 @@ body {
   color: var(--mainBlack);
   background: var(--mainWhite);
   line-height: 1.4;
+}
+
+section {
+  padding: 6rem 0;
 }
 
 a {
@@ -69,10 +73,10 @@ p {
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
-  border: 2px solid var(--mainWhite);
   padding: 0.9rem 1.6rem;
   display: inline-block;
   transition: var(--mainTransition);
+  border: none;
   cursor: pointer;
 }
 .btn-white:hover {
@@ -82,14 +86,7 @@ p {
 .btn-primary {
   background: var(--primaryColor);
   color: var(--mainWhite);
-  border: 2px solid var(--primaryColor);
 }
 .btn-primary:hover {
-  background: transparent;
-  color: var(--primaryColor);
-}
-/* .gatsby-image-wrapper {
-  max-height: 600px;
-} */
-.rich {
+  background: var(--secondaryColor) !important;
 }

@@ -9,9 +9,9 @@
   height: 100%;
 }
 .prev {
-  background:transparent !important;
+  background: transparent !important;
   background-color: transparent !important;
-  border-color:transparent !important;
+  border-color: transparent !important;
   position: absolute;
   top: 50%;
   left: 20px;
@@ -19,9 +19,9 @@
   padding: 0.5rem 0.5rem;
 }
 .next {
-  background:transparent !important;
+  background: transparent !important;
   background-color: transparent !important;
-  border-color:transparent !important;
+  border-color: transparent !important;
   position: absolute;
   top: 50%;
   right: 20px;
@@ -29,13 +29,17 @@
   padding: 0.5rem 0.5rem;
 }
 
-.next.focus, .next:focus, .prev.focus, .prev:focus {
+.next.focus,
+.next:focus,
+.prev.focus,
+.prev:focus {
   outline: 0;
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
 
-.arrow-left:hover, .arrow-right:hover{
-  color: rgba(255,255,255, 0.7);;
+.arrow-left:hover,
+.arrow-right:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .arrow-left {
@@ -57,7 +61,7 @@
   -ms-animation: fadeIn ease 1s;
 }
 
-.container:hover .arrow-left{
+.container:hover .arrow-left {
   display: flex;
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
@@ -66,33 +70,50 @@
   -ms-animation: fadeIn ease 1s;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-  @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
+}
 
 /* .right {
   transform: rotate(-45deg);
