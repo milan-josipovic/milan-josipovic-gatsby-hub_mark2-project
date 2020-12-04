@@ -6,7 +6,7 @@
   box-shadow: var(--darkShadow);
 }
 
-.img-container { 
+.img-container {
   position: relative;
   background: var(--primaryColor);
   transition: var(--mainTransition);
@@ -18,7 +18,7 @@
   opacity: 0.3;
 }
 
-.title{
+.title {
   font-size: x-large;
 }
 
@@ -36,7 +36,7 @@
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .link:hover {
   background: var(--mainWhite);

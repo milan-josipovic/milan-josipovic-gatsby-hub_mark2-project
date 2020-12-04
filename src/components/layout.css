@@ -14,7 +14,7 @@
 
   --primaryColor: #064e6e;
   --secondaryColor: #067db4;
-  --tertiaryColor: #4d94c7;
+  --tertiaryColor: #376a8f;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -45,7 +45,13 @@ section {
 
 a {
   font-size: 0.75rem;
+  text-decoration: none;
 }
+
+li {
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -59,6 +65,7 @@ h6 {
 p {
   margin-bottom: 1.25rem;
 }
+
 .defaultHero {
   min-height: calc(100vh - 62px);
   background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)),
@@ -82,10 +89,12 @@ p {
 .btn-white:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
+  text-decoration: none !important;
 }
 .btn-primary {
   background: var(--primaryColor);
   color: var(--mainWhite);
+  text-decoration: none !important;
 }
 .btn-primary:hover {
   background: var(--secondaryColor) !important;
