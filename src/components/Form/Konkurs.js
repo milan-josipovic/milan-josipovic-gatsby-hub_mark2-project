@@ -62,46 +62,27 @@ export default class MyForm extends React.Component {
               method="POST"
               className={styles.form}
             >
-              <div className={styles.form_top}>
-                <div className={styles.margin_right}>
-                  <label htmlFor="name">Ime</label>
-                  <input
-                    className={styles.form_input}
-                    type="text"
-                    name="ime"
-                    id="ime"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="name">Prezime</label>
-                  <input
-                    className={styles.form_input}
-                    type="text"
-                    name="prezime"
-                    id="prezime"
-                  />
-                </div>
+              <div className={styles.form__top}>
+                <label className={styles.form__title}>ime i prezime</label>
+                <input type="text" name="ime" className={styles.form__input} />
               </div>
-              <div className={styles.form_top}>
-                <div className={styles.margin_right}>
-                  <label htmlFor="name">Telefon</label>
-                  <input
-                    className={styles.form_input}
-                    type="text"
-                    name="telefon"
-                    id="telefon"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="name">Email</label>
-                  <input
-                    className={styles.form_input}
-                    type="text"
-                    name="email"
-                    id="email"
-                  />
-                </div>
+              <div className={styles.form__top}>
+                <label className={styles.form__title}>Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  className={styles.form__input}
+                />
               </div>
+              <div className={styles.form__top}>
+                <label className={styles.form__title}>broj telefona</label>
+                <input
+                  type="text"
+                  name="telefon"
+                  className={styles.form__input}
+                />
+              </div>
+
               <div className={styles.form_option}>
                 <div>
                   <h4 className={styles.heading}>Imate li startup ideju?</h4>
@@ -125,7 +106,8 @@ export default class MyForm extends React.Component {
                   />
                 </div>
               </div>
-              <div className={styles.vestine}>
+
+              <div className={styles.form__top}>
                 <div>
                   <h4 className={styles.heading}>
                     Koja su tvoja znanja i veštine?
@@ -141,7 +123,8 @@ export default class MyForm extends React.Component {
                   <option value="Razvoj proizvoda">Razvoj proizvoda</option>
                 </select>
               </div>
-              <div className={styles.prikljucivanje}>
+
+              <div className={styles.form__top}>
                 <h4 className={styles.heading}>
                   Zašto želiš da se priključiš startapu? *
                 </h4>

@@ -1,15 +1,9 @@
 .main {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .map-section {
   display: flex;
-  flex: 2;
-}
-
-.info-section {
-  display: flex;
-  flex-direction: column;
   flex: 1;
-  background-color: #e0e0e0;
 }

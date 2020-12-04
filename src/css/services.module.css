@@ -22,7 +22,7 @@
   text-align: center;
   background-color: rgba(6, 79, 110, 0.795);
   padding: 1rem;
-  max-width: 22rem;
+  max-width: 19rem;
   height: 20rem;
   transition: all 0.3s;
 }
@@ -43,10 +43,15 @@
 .services button a {
   text-decoration: none;
   color: white;
+  outline: none;
 }
 .services button a:hover {
   text-decoration: none;
   color: white;
+}
+
+.services button a:focus {
+  outline: none;
 }
 
 .text {
@@ -61,6 +66,7 @@
   text-transform: uppercase;
   letter-spacing: 10px;
   font-size: 2.1rem;
+  font-size: 2.8rem;
 }
 
 .icon {

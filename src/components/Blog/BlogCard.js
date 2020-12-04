@@ -10,7 +10,7 @@ const BlogCard = ({ blog }) => {
       <div className={styles.imgContainer}>
         <Image fluid={image.fluid} className={styles.img} alt="single post" />
         <Link fade className={styles.link} to={`/vesti/${slug}`}>
-          procitajte vise
+          pročitajte više
         </Link>
         <h6 className={styles.date}>{published}</h6>
       </div>

@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Map, TileLayer, Marker, Popup, Tooltip } from "react-leaflet"
 import "./leafletmap.css"
 import styles from "../../css/map.module.css"
+import Info from "../Home/Info"
 
 class LeafletMap extends React.Component {
   static propTypes = {
@@ -48,10 +49,9 @@ class LeafletMap extends React.Component {
             )}
           </Map>
         </div>
-        {/* <div className={styles.infoSection}>
-        <h1>test</h1>
-        <h1>test</h1>
-      </div> */}
+        <div className={styles.infoContainer}>
+          <Info />
+        </div>
       </div>
     )
   }

@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Slide from "../components/Slide"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
+import Contact from "../components/Home/Contact"
 import Konkurs from "../components/Form/Konkurs"
 import FeaturedNews from "../components/Home/FeaturedNews"
 import Survey from "../components/Home/Survey"
@@ -23,13 +24,7 @@ export default ({ data }) => (
 
     {/* </section> */}
 
-    {typeof window !== "undefined" && (
-      <LeafletMap
-        position={[43.853539, 19.855175]}
-        zoom={16}
-        markerText={"RIS Hub Užice "}
-      />
-    )}
+    <Contact />
     <PartnerLogos />
   </Layout>
 )
