@@ -1,5 +1,5 @@
 .footer {
-  padding: 2rem 6rem !important;
+/*   padding: 2rem 6rem !important; */
   /* background-color: var(--primaryColor); */
   background-image: linear-gradient(
     to left,
@@ -22,6 +22,7 @@
   justify-content: center;
 }
 .footer__item {
+  padding: 6rem;
   width: 30rem;
   display: flex;
   flex-direction: column;
