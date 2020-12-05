@@ -4,7 +4,7 @@ import { IoIosCall, IoIosMail, IoIosPin } from "react-icons/io"
 export default [
   {
     icon: <IoIosPin />,
-    text: "Adresa",
+    text: "Miloša Obrenovića 1, Užice 31000, Србија",
   },
   {
     icon: <IoIosCall />,

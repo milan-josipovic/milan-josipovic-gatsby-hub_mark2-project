@@ -87,8 +87,8 @@ export default class MyForm extends React.Component {
                 <div>
                   <h4 className={styles.heading}>Imate li startup ideju?</h4>
                 </div>
-                <div className="options">
-                  <label htmlFor="Da">Da</label>
+                <div className={styles.options}>
+                  <label className={styles.options_label} htmlFor="Da">Da</label>
                   <input
                     className={styles.check}
                     type="radio"
@@ -96,7 +96,7 @@ export default class MyForm extends React.Component {
                     id="startupIdeje"
                     value="da"
                   />
-                  <label htmlFor="Ne">Ne</label>
+                  <label className={styles.options_label} htmlFor="Ne">Ne</label>
                   <input
                     className={styles.check}
                     type="radio"
