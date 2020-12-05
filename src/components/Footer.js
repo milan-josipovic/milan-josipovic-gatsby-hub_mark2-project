@@ -37,6 +37,7 @@ const Footer = () => {
             </ul>
           </div>
           <div class={styles.footer__item}>
+             <h4 class={styles.footer__heading}>Društvene mreže</h4>
             <div class={styles.footer__social}>
               {icons.map((icon, index) => {
                 return (
