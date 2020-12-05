@@ -22,7 +22,7 @@
   justify-content: center;
 }
 .footer__item {
-  padding: 6rem;
+  padding: 6rem !important;
   width: 30rem;
   display: flex;
   flex-direction: column;
