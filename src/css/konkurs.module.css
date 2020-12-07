@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   cursor: pointer;
   padding: 2rem;
   margin-top: -12%;
